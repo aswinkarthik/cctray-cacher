@@ -30,6 +30,6 @@ while true
 do
 echo "Getting XML at `date`"
 curl $CI_MASTER_FEED_URL > ./cctray.xml 2>/dev/null 
-sleep 3
+sleep 300
 done
 
